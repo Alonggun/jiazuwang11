@@ -1,0 +1,171 @@
+.first-row {
+	background-color: #0186e9;
+}
+
+.title {
+	font-size: 65px;
+	font-style: oblique;
+	font-weight: bold;
+	color: black;
+	font-family: STXingkai;
+	text-shadow: 6px 2px 2px #333;
+}
+
+.navbar-form {
+	color: black;
+	font-family: STXingkai;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.login {
+	position: absolute;
+	padding-top: 10px;
+	right: 90px;
+	color: black;
+	font-family: STXingkai;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.logout {
+	position: absolute;
+	padding-top: 10px;
+	right: 40px;
+	color: black;
+	font-family: STXingkai;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.nav-font, .dropdown-toggle {
+	color: white;
+	font-family: STXingkai;
+	font-size: 23px;
+	/* 相对定位，相对 绝对定位（若没有绝对定位那将会追溯到body，相对body定位） */
+	position: absolute;
+	text-align: left;
+	padding-top: 10px;
+}
+.fast-button{
+	height: 30px;
+	padding-top:5px;
+	padding-left:56px;
+	font-size: 24px;
+	font-family: STXingkai;
+}
+.fast-button a{
+	color: white;
+}
+/* 轮播图 */
+#max {
+	width: 900px;
+	height: 500px;
+	align-items: center;
+	margin: 0% auto;
+	margin-top: 0%;
+}
+
+.re {
+	padding-left: 0px;
+	position: relative;
+	height: 400px;
+}
+
+.re ul {
+	list-style-type: none;
+}
+
+.re ul>li {
+	width: 600px;
+	height: 300px;
+	position: absolute;
+	transition: 1s;
+	opacity: 0;
+}
+
+.re ul>li img {
+	width: 900px;
+	height: 500px;
+	border-radius: 10%;
+	border: 5px solid #fffbd6;
+}
+
+#max ol {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(5, 75px);
+	grid-template-rows: auto;
+	grid-gap: 1em;
+	gap: 1em;
+	float: right;
+	margin-top: 420px;
+	list-style: none;
+	top: 0;
+	left: 0;
+}
+
+#max ol li {
+	width: 10px;
+	height: 5px;
+	font-size: 18px;
+	color: white;
+	line-height: 2px;
+	float: left;
+	text-align: center;
+	border-radius: 2em;
+	border: 20px solid #38aafe;
+}
+
+.biaoti-jiaoyi {
+	padding-left: 50px;
+	padding-right: 20px;
+	padding-top: 5px;
+}
+
+.glyphicon {
+	margin-left: 20px;
+	font-size: 28px;
+	color: #0186e9;
+}
+
+.biaoti {
+	font-size: 28px;
+	font-family: STXingkai;
+	color: #0186e9;
+}
+
+.biaotiset {
+	margin-bottom: 10px;
+}
+
+.pyqtp {
+}
+
+.nav-pills {
+	background-color: #0186e9;
+	height: 40px;
+}
+.pagelist{
+	margin-top:30px;
+	text-align: center;
+	font-size: 16px;
+}
+hr {
+	/* border:1px solid #0186e9; */
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+	background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
+footer {
+	
+}
+
+.col {
+	text-align: center;
+	color: white;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:>
+<head>
+    <meta charset="UTF-8">
+    <title>家族事件发布</title>
+
+    <script src="../js/angularJS/angular.min.js"></script>
+
+    <script>
+        var app=angular.module("bigEventsApp",[]);
+        app.controller("BigEventsController",function ($scope,$http) {
+            $scope.insertBigEvents=function () {
+                $http.post('../bigEvents/insertBigEvents',$scope.entity).success(
+                    function (response) {
+                        if(response.success){
+                            $scope.findBigEventsList();//刷新（返回列表）
+                        }else {
+                            alert(response.message);
+                        }
+                    }
+                );
+            }
+        });
+    </script>
+
+</head>
+<body ng-app="bigEventsApp" ng-controller="BigEventsController">
+    <div style="background:blue;width: 650px;height: 400px;
+    position:absolute;top: 20%;bottom: 50%;left: 25%;right: 50%">
+        <table align="center">
+            <tr>
+                <td>标题：<input style="width: 300px;height: 30px" ng-model="entity.title"></td>
+            </tr>
+            <tr>
+                <td>正文：<input style="width: 300px;height: 200px" ng-model="entity.clanDetail"></td>
+            </tr>
+            <tr>
+                <td><button ng-click="insertBigEvents()">发布</button><button>修改</button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

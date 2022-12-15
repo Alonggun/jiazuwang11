@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>家和万事兴</title>
+
+<script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css" />
+<script type="text/javascript"
+	src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/slideshow/slideshow.js"></script>
+<script type="text/javascript" src="js/index/index.js"></script>
+<link rel="stylesheet" href="css/index.css" type="text/css" />
+</head>
+<body>
+	<div class="row first-row">
+		<div class="col-sm-6 col-md-2">
+			<h1 class="title">家族网</h1>
+		</div>
+		<div class="col-sm-6 col-md-10">
+			<div class="row">
+				<div class="col-sm-6 col-md-2"></div>
+				<div class="col-sm-6 col-md-7">
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control"
+								style='width: 333px; height: 40px; font-size: 20px'
+								placeholder="输入您想找的内容~">
+						</div>
+						<button type="submit" class="btn btn-default"
+							style='height: 40px; font-size: 20px'>搜索</button>
+					</form>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<a class="login" href="html/login.html">登录</a> <a class="logout"
+						href="index.html" onclick="logout()">退出</a>
+				</div>
+			</div>
+			<div>
+				<ul class="nav nav-pills">
+					<div class="row">
+						<div class="col-sm-6 col-md-1">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="index.html">&nbsp;首页</a></li>
+						</div>
+						<div class="col-sm-6 col-md-1">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="html/pedigree-of-a-clan.html">&nbsp;族谱</a></li>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="html/story.html">&nbsp;家族大事纪</a></li>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="html/personal-honor.html">个人光荣事迹</a></li>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="html/femily-section.html">家庭单位模块</a></li>
+						</div>
+						<div class="col-sm-6 col-md-2">
+							<li role="presentation" class="active"><a class="nav-font"
+								href="html/latest-events.html">近期事件公告</a></li>
+						</div>
+						<div class="col-sm-6 col-md-2"></div>
+					</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!-- 快捷方式 -->
+	<div class="fast-button">
+		<span class="label label-info"><a href="html/article-list.html">公告</a></span> <span
+			class="label label-primary"><a href="html/shop-list.html">交易市场</a></span> <span
+			class="label label-success"><a href="html/article-edit.html">拼车</a></span> <span
+			class="label label-default"><a href="html/article-list.html">朋友圈</a></span> <span
+			class="label label-warning"><a href="html/article-edit.html">求助</a></span> <span
+			class="label label-danger"><a href="html/article-edit.html">反馈</a></span>
+	</div>
+	<!-- 轮播图 -->
+	<div class="row">
+		<div class="col-sm-6 col-md-8">
+			<div id="max">
+				<div class="re">
+					<ul>
+						<li><img src="images/002YV4Jqgy1gua950wqihj63401r17wj02.jpg"
+							alt=""></li>
+						<li><img src="images/a2dddbc8gy1gsnmxikq9wj234022onpe.jpg"
+							alt=""></li>
+						<li><img src="images/a2dddbc8gy1gsnmxoi7tkj234022o7wj.jpg"
+							alt=""></li>
+						<li><img src="images/a2dddbc8gy1gsvcbxqqvqj21uo18gkjl.jpg"
+							alt=""></li>
+						<li><img src="images/a2dddbc8gy1gt034hih7sj21uo18ge81.jpg"
+							alt=""></li>
+					</ul>
+					<ol>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!-- 交易市场 -->
+		<div class="biaoti-jiaoyi col-sm-6 col-md-4">
+			<h4 class="glyphicon glyphicon-yen"></h4>
+			<span class="biaoti"><a href="html/shop-list.html">交易市场</a></span>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="html/article-details.html">Cras
+						justo odio</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Dapibus
+						ac facilisis in</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Morbi
+						leo risus</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Porta
+						ac consectetur ac</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Vestibulum
+						at eros</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Cras
+						justo odio</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Dapibus
+						ac facilisis in</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Morbi
+						leo risus</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Porta
+						ac consectetur ac</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Vestibulum
+						at eros</a></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<!-- 分割线 1、两头渐变透明：-->
+	<HR>
+	<div class="row">
+		<!-- 头条热点 -->
+		<div class="biaotiset col-sm-6 col-md-4">
+			<h4 class="glyphicon glyphicon-fire"></h4>
+			<span class="biaoti"><a href="html/article-list.html">头条热点</a></span>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="html/article-details.html">Cras
+						justo odio</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Dapibus
+						ac facilisis in</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Morbi
+						leo risus</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Porta
+						ac consectetur ac</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Vestibulum
+						at eros</a></li>
+			</ul>
+		</div>
+		<!-- 近期事件公告 -->
+		<div class="biaotiset col-sm-6 col-md-4">
+			<h4 class="glyphicon glyphicon-hand-right"></h4>
+			<span class="biaoti"><a href="html/article-list.html">近期事件公告</a></span>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="html/article-details.html">Cras
+						justo odio</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Dapibus
+						ac facilisis in</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Morbi
+						leo risus</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Porta
+						ac consectetur ac</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Vestibulum
+						at eros</a></li>
+			</ul>
+		</div>
+		<!-- 求助 -->
+		<div class="biaotiset col-sm-6 col-md-4">
+			<h4 class="glyphicon glyphicon-heart-empty"></h4>
+			<span class="biaoti"><a href="html/article-list.html">求助</a></span>
+			<ul class="list-group">
+				<li class="list-group-item"><a href="html/article-details.html">Cras
+						justo odio</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Dapibus
+						ac facilisis in</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Morbi
+						leo risus</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Porta
+						ac consectetur ac</a></li>
+				<li class="list-group-item"><a href="html/article-details.html">Vestibulum
+						at eros</a></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 分割线 1、两头渐变透明：-->
+	<HR>
+	<!-- 朋友圈 -->
+	<h4 class="glyphicon glyphicon-send"></h4>
+	<span class="biaoti"><a href="html/article-list.html">朋友圈</a></span>
+	<div class="row">
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<a href="html/article-details.html"><img
+					src="images/a2dddbc8gy1gsnmxoi7tkj234022o7wj.jpg" alt="..."></a>
+				<div class="caption">
+					<h3>Thumbnail label</h3>
+					<p>...</p>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<a href="html/article-details.html"><img
+					src="images/a2dddbc8gy1gsnmxoi7tkj234022o7wj.jpg" alt="..."></a>
+				<div class="caption">
+					<h3>Thumbnail label</h3>
+					<p>...</p>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="thumbnail">
+				<a href="html/article-details.html"><img
+					src="images/a2dddbc8gy1gsnmxoi7tkj234022o7wj.jpg" alt="..."></a>
+				<div class="caption">
+					<h3>Thumbnail label</h3>
+					<p>...</p>
+					<p>
+						<a href="#" class="btn btn-primary" role="button">Button</a> <a
+							href="#" class="btn btn-default" role="button">Button</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 分割线 1、两头渐变透明：-->
+	<HR>
+	<!-- 风采展示 -->
+	<h4 class="glyphicon glyphicon-menu-right"></h4>
+	<span class="biaoti"><a href="html/mien-show-list.html">风采展示</a></span>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<a href="html/mien-show-list.html" class="thumbnail"> <img
+				src="images/002YV4Jqgy1gua950wqihj63401r17wj02.jpg" alt="...">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a href="html/mien-show-list.html" class="thumbnail"> <img
+				src="images/002YV4Jqgy1gua950wqihj63401r17wj02.jpg" alt="...">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a href="html/mien-show-list.html" class="thumbnail"> <img
+				src="images/002YV4Jqgy1gua950wqihj63401r17wj02.jpg" alt="...">
+			</a>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<a href="html/mien-show-list.html" class="thumbnail"> <img
+				src="images/002YV4Jqgy1gua950wqihj63401r17wj02.jpg" alt="...">
+			</a>
+		</div>
+	</div>
+	<!-- 分割线 1、两头渐变透明：-->
+	<HR>
+	<footer
+		style="width: 100%; z-index: 9999; bottom: 0; background-color: #2D2D37">
+		<div class="container footer"
+			style="max-width: 1200px; width: 100%; height: 142px;">
+			<div class="row" style="padding-top: 30px;">
+				<div class="col">
+					<p style="visibility: hidden">123123</p>
+				</div>
+				<div class="col">
+					<p>客服专线：188-8888-8888</p>
+					<p style="margin-top: -12px;">
+						<span style="visibility: hidden">客服专线：</span>277-257237
+					</p>
+				</div>
+				<div class="col" style="padding-right: 1px; padding-left: 1px;">
+					<p>地址：广西壮族自治区大乔善</p>
+					<!-- <p style="margin-top:-12px;"><span style="visibility: hidden">地址：</span>dfsdfasfdsa</p> -->
+				</div>
+			</div>
+		</div>
+		<div class="text-center"
+			style="background-color: #25252F; height: 30px; line-height: 30px; color: #fff; font-size: 12px;">
+			<p class="mb-0" style="opacity: .4">Copyright 2022
+				www.jiazuwang.com</p>
+		</div>
+	</footer>
+</body>
+</html>

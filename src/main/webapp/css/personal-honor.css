@@ -1,0 +1,46 @@
+.story-body {
+	margin-top: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.list-group {
+	width: 100%;
+	border: 1px solid #e1dfe3;
+	background-color: #f3f2f4
+}
+
+.media-list {
+	border: 2px solid #e1dfe3;
+}
+
+.media-object {
+	width: 64px;
+	height: 64px;
+}
+
+.media-body {
+	position: relative;
+}
+
+.media-body span {
+	position: absolute;
+	right: 0;
+}
+
+.media-body a {
+	/* 文字超过两行就显示省略号 */
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	
+	color: black;
+}
+
+.pagelist {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 16px;
+}

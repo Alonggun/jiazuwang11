@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.huaxing.mapper.BigEventsMapper">
+    <resultMap id="BaseResultMap" type="com.huaxing.entity.TbBigEvents">
+        <id column="id" property="id"/>
+        <result column="title" property="title"/>
+        <result column="surname_id" property="surnameId"/>
+        <result column="clan_detail" property="clanDetail"/>
+        <result column="scan" property="scan"/>
+        <result column="create_time" property="createTime"/>
+        <result column="update_time" property="updateTime"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+        id,title,surname_id,clan_detail,
+        scan,create_time,update_time
+    </sql>
+    <select id="findBigEventsList"  resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from tb_big_events
+
+    </select>
+    <insert id="insertBigEvents" parameterType="com.huaxing.entity.TbBigEvents">
+        insert into tb_big_events(
+        id,title,surname_id,clan_detail,
+        scan,create_time,update_time
+        ) values (
+        #{id},#{title},#{surnameId},#{clanDetail},
+        #{scan},#{createTime},#{updateTime}
+        )
+    </insert>
+</mapper>

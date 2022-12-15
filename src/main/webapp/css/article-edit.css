@@ -1,0 +1,25 @@
+.editor-body{
+	width: 800px;
+	height: auto;
+	min-height:100%;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+}
+#div1{
+	margin-bottom: 20px;
+}
+.button-div{
+	text-align: center;
+}
+.submit-button{
+	width:100px;
+	height:40px;
+	font-size:18px;
+	color:white;
+	left:200px;
+	text-align:center;
+	background-color: #0093d9;
+}

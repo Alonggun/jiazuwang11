@@ -1,0 +1,18 @@
+.article-details-body{
+	min-height: 100%;
+}
+.article-details-head{
+	/* border: 6px solid #0186e9; */
+	border-bottom: 6px solid #0186e9;
+}
+.article-details-title{
+	text-align: center;
+}
+.article-details-content{
+	padding-top: 30px;
+	padding-bottom:30px;
+	font-family: "·ÂËÎ";
+	font-size: 18px;
+	text-indent: 2em;
+	text-align: justify;
+}

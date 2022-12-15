@@ -1,0 +1,44 @@
+.shop-details-body{
+	min-height:100%;
+	overflow: hidden;
+	margin-bottom:57px;
+}
+.div-img{
+	width:50%;
+	float: left;
+	margin-top:57px;
+	text-align: right;
+	padding-right: 50px;
+}
+.div-img img{
+	width: 360px;
+	height: 360px;
+	
+}
+.div-details{
+	width:50%;
+	float: right;
+	margin-top:57px;
+	text-align: left;
+}
+.div-details div{
+	margin-bottom:20px;
+}
+.details-explain1{
+}
+.details-explain2{
+	margin-bottom:20px;
+	color: red;
+}
+.details-price{
+	margin-bottom:20px;
+	font-size:18px;
+	color: #e24907;
+}
+.details-leave-message{
+	margin-bottom:20px;
+}
+.details-submit{
+	margin-bottom:20px;
+	margin-top:20px;
+}
