@@ -1,9 +1,9 @@
-package com.huaxing.mapper;
+package com.huaxing.service;
 
 import com.huaxing.entity.TbUser;
 
 import java.util.List;
 
-public interface UserMapper {
+public interface UserService {
     List<TbUser> findUserList(TbUser user);
 }
