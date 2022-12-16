@@ -15,4 +15,9 @@ public class UserServiceImpl implements UserService {
     public List<TbUser> findUserList(TbUser user) {
         return userMapper.findUserList(user);
     }
+
+    @Override
+    public void insertUser(TbUser user) {
+        userMapper.insertUser(user);
+    }
 }

@@ -18,4 +18,11 @@
         <include refid="Base_Column_List"/>
         from tb_user
     </select>
+    <insert id="insertUser" parameterType="com.huaxing.entity.TbUser">
+        insert into tb_user(
+        <include refid="Base_Column_List"/>
+        ) values (
+        #{id},#{username},#{password},#{phone},#{gender},#{createTime},#{updateTime}
+        )
+    </insert>
 </mapper>

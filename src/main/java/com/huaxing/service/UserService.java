@@ -6,4 +6,6 @@ import java.util.List;
 
 public interface UserService {
     List<TbUser> findUserList(TbUser user);
+
+    void insertUser(TbUser user);
 }
